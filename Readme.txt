@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+This is my Portfolio area.
 
 Template Name: iPortfolio
 Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
