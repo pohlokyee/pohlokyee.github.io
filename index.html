@@ -21,7 +21,7 @@
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar">
-    <a href="#hero" class="nav-brand">Polok.</a>
+    <a href="#hero" class="nav-brand">Poh Lok Yee.</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
       <span></span>
       <span></span>
@@ -44,41 +44,43 @@
       <!-- Photo with floating orbit -->
       <div class="hero-photo-wrapper">
         <div class="hero-photo-orbit"></div>
-        <img src="assets/img/lok.jpg" alt="Poh Lok Yee" class="hero-photo">
+        <img src="assets/img/polok.jpg" alt="Poh Lok Yee" class="hero-photo">
       </div>
 
       <!-- Content -->
       <div class="hero-content">
         <h1 class="hero-greeting">Hey, I'm <span class="name-highlight">Polok</span></h1>
         <div class="hero-role">
-          <span>I'm a </span>
-          <span class="typing-text" id="typingText">Data Engineering Student</span>
+          <span>I'm a&nbsp;</span>
+          <span class="typing-text" id="typingText"> Data Engineering Student</span>
           <span class="typing-cursor"></span>
         </div>
         <p class="hero-description">
-          Currently a 3rd-year student at Universiti Teknologi Malaysia.
+          Currently a 3rd-year Computer Science majoring in Data Engineering student at Universiti Teknologi Malaysia.
           Passionate about automation, building efficient data pipelines,
           and cloud infrastructure.
         </p>
 
-        <!-- Social icons: GitHub, LinkedIn, Email, Discord -->
-        <div class="hero-socials">
-          <a href="https://github.com/pohlokyee" target="_blank" title="GitHub">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/pohlokyee/" target="_blank" title="LinkedIn">
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a href="mailto:poh.yee@graduate.utm.my" title="Email">
-            <i class="bx bx-envelope"></i>
-          </a>
-          <a href="https://discord.com/" target="_blank" title="Discord">
-            <i class="bx bxl-discord-alt"></i>
-          </a>
+        <!-- Social icons: GitHub, LinkedIn, Email, Discord & Phone -->
+        <div class="hero-social-row">
+          <div class="hero-socials">
+            <a href="https://github.com/pohlokyee" target="_blank" title="GitHub">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/pohlokyee/" target="_blank" title="LinkedIn">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="mailto:poh.yee@graduate.utm.my" title="Email">
+              <i class="bx bx-envelope"></i>
+            </a>
+            <a href="https://discord.com/" target="_blank" title="Discord">
+              <i class="bx bxl-discord-alt"></i>
+            </a>
+          </div>
         </div>
 
         <!-- Download CV -->
-        <a href="#" class="btn-download-cv" id="downloadCV">
+        <a href="assets/resume.pdf" class="btn-download-cv" id="downloadCV" download="Poh_Lok_Yee_CV.pdf">
           Download CV <i class="bx bx-download"></i>
         </a>
       </div>
@@ -98,6 +100,24 @@
       <!-- Center photo -->
       <img src="assets/img/lok.jpg" alt="Poh Lok Yee" class="about-center-photo">
 
+      <!-- Spotify Listening Widget -->
+      <div class="spotify-widget">
+        <div class="spotify-icon"><i class="bx bxl-spotify"></i></div>
+        <div class="spotify-info">
+          <div class="spotify-status">CURRENTLY LISTENING</div>
+          <div class="spotify-track-container">
+            <span class="spotify-track" id="spotifyTrack" style="transition: opacity 0.4s ease;">Zankyou Sanka —
+              Aimer</span>
+          </div>
+        </div>
+        <div class="spotify-equalizer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+
       <!-- Left-side expandable cards -->
       <div class="about-expand-wrapper" data-pos="left-top">
         <div class="about-float-card">CGPA 3.98 / 4.00</div>
@@ -107,7 +127,7 @@
       </div>
 
       <div class="about-expand-wrapper" data-pos="left-mid">
-        <div class="about-float-card">Japanese Music Lover 🎵</div>
+        <div class="about-float-card">Japanese Music Lover</div>
         <div class="about-expand-children">
           <div class="about-expand-child">Zutomayo</div>
           <div class="about-expand-child">Aimer</div>
@@ -116,7 +136,7 @@
       </div>
 
       <div class="about-expand-wrapper" data-pos="left-bot">
-        <div class="about-float-card">24 Festive Drums Alumnus 🥁</div>
+        <div class="about-float-card">24 Festive Drums Alumnus</div>
         <div class="about-expand-children">
           <div class="about-expand-child">Performer</div>
           <div class="about-expand-child">General Affairs</div>
@@ -125,7 +145,7 @@
 
       <!-- Right-side expandable cards -->
       <div class="about-expand-wrapper" data-pos="right-top">
-        <div class="about-float-card">Multilingual Speaker 🌏</div>
+        <div class="about-float-card">Multilingual Speaker</div>
         <div class="about-expand-children">
           <div class="about-expand-child">English</div>
           <div class="about-expand-child">Chinese</div>
@@ -136,7 +156,7 @@
       </div>
 
       <div class="about-expand-wrapper" data-pos="right-mid">
-        <div class="about-float-card">Interested in Automation ⚙️</div>
+        <div class="about-float-card">Interested in Automation</div>
         <div class="about-expand-children">
           <div class="about-expand-child">UiPath</div>
           <div class="about-expand-child">RPA</div>
@@ -144,7 +164,7 @@
       </div>
 
       <div class="about-expand-wrapper" data-pos="right-bot">
-        <div class="about-float-card">Internship at DHL 📦</div>
+        <div class="about-float-card">Internship at DHL APSSC</div>
         <div class="about-expand-children">
           <div class="about-expand-child">Aug 2026 - Jun 2027</div>
         </div>
@@ -204,8 +224,8 @@
           <span class="project-tag">Python</span>
           <span class="project-tag">Power BI</span>
         </div>
-        <a href="https://github.com/pohlokyee" target="_blank" class="project-link">View Project <i
-            class="bx bx-link-external"></i></a>
+        <a href="https://github.com/pohlokyee/Academic-Project/tree/main/Year3-Sem2/Special%20Topic%20Data%20Engineering/Tutorial%201%20Azure%20Pipeline"
+          target="_blank" class="project-link">View Project <i class="bx bx-link-external"></i></a>
       </div>
 
       <div class="project-card reveal">
@@ -218,8 +238,8 @@
           <span class="project-tag">RPA</span>
           <span class="project-tag">AI Routing</span>
         </div>
-        <a href="https://github.com/pohlokyee" target="_blank" class="project-link">View Project <i
-            class="bx bx-link-external"></i></a>
+        <a href="https://www.linkedin.com/posts/pohlokyee_just-built-my-first-intelligent-invoice-ugcPost-7466531945682874368-Da17/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhOzuoB6KAPNSWUt0Wwm1_yYBY6q_F3QoY"
+          target="_blank" class="project-link">View Project <i class="bx bx-link-external"></i></a>
       </div>
 
       <div class="project-card reveal">
@@ -232,7 +252,7 @@
           <span class="project-tag">MySQL</span>
           <span class="project-tag">Blade</span>
         </div>
-        <a href="https://github.com/pohlokyee" target="_blank" class="project-link">View Project <i
+        <a href="https://github.com/pohlokyee/KADA-eServe" target="_blank" class="project-link">View Project <i
             class="bx bx-link-external"></i></a>
       </div>
 
@@ -245,8 +265,8 @@
           <span class="project-tag">Firebase</span>
           <span class="project-tag">Dart</span>
         </div>
-        <a href="https://github.com/pohlokyee" target="_blank" class="project-link">View Project <i
-            class="bx bx-link-external"></i></a>
+        <a href="https://github.com/ZHIMING04/mara-attendance-system" target="_blank" class="project-link">View Project
+          <i class="bx bx-link-external"></i></a>
       </div>
 
     </div>
@@ -258,12 +278,17 @@
   <section id="contact" class="footer">
     <h2 class="reveal">Contact</h2>
     <p class="reveal">Ready to collaborate on the next big project?</p>
-    <div class="social-links reveal">
-      <a href="mailto:poh.yee@graduate.utm.my" title="Email"><i class="bx bx-envelope"></i></a>
-      <a href="https://github.com/pohlokyee" target="_blank" title="GitHub"><i class="bx bxl-github"></i></a>
-      <a href="https://instagram.com/holypolok" target="_blank" title="Instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/pohlokyee/" target="_blank" title="LinkedIn"><i
-          class="bx bxl-linkedin"></i></a>
+    <div class="footer-contact-row reveal">
+      <div class="social-links">
+        <a href="mailto:poh.yee@graduate.utm.my" title="Email"><i class="bx bx-envelope"></i></a>
+        <a href="https://github.com/pohlokyee" target="_blank" title="GitHub"><i class="bx bxl-github"></i></a>
+        <a href="https://discord.com/" target="_blank" title="Discord"><i class="bx bxl-discord-alt"></i></a>
+        <a href="https://www.linkedin.com/in/pohlokyee/" target="_blank" title="LinkedIn"><i
+            class="bx bxl-linkedin"></i></a>
+      </div>
+      <a href="tel:011-11510260" class="hero-phone-pill" title="Phone">
+        <i class="bx bx-phone"></i> 011-1151 0260
+      </a>
     </div>
     <p class="footer-credit reveal">
       &copy; 2026 Poh Lok Yee. All rights reserved.
@@ -305,7 +330,7 @@
     // ========================================
     const roles = [
       "Data Engineering Student",
-      "Cloud Enthusiast",
+      "RPA Beginner",
       "Web Developer",
       "Problem Solver"
     ];
@@ -348,6 +373,68 @@
     const techTrack = document.getElementById("techTrack");
     const techItems = techTrack.innerHTML;
     techTrack.innerHTML += techItems;
+
+    // ========================================
+    // Draggable Bubbles (Mouse & Touch Support)
+    // ========================================
+    function makeDraggable(element) {
+      let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      const handle = element.querySelector('.about-float-card');
+      if (!handle) return;
+
+      handle.addEventListener('mousedown', dragMouseDown);
+      handle.addEventListener('touchstart', dragMouseDown, { passive: false });
+
+      function dragMouseDown(e) {
+        // Pause floating animation
+        element.style.animation = 'none';
+
+        const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+
+        pos3 = clientX;
+        pos4 = clientY;
+
+        if (e.type !== 'touchstart') {
+          e.preventDefault();
+        }
+
+        document.addEventListener('mouseup', closeDragElement);
+        document.addEventListener('touchend', closeDragElement);
+        document.addEventListener('mousemove', elementDrag, { passive: false });
+        document.addEventListener('touchmove', elementDrag, { passive: false });
+      }
+
+      function elementDrag(e) {
+        const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+
+        pos1 = pos3 - clientX;
+        pos2 = pos4 - clientY;
+        pos3 = clientX;
+        pos4 = clientY;
+
+        element.style.top = (element.offsetTop - pos2) + "px";
+        element.style.left = (element.offsetLeft - pos1) + "px";
+
+        // Release right/bottom to avoid position conflicts
+        element.style.bottom = 'auto';
+        element.style.right = 'auto';
+
+        if (e.type === 'touchmove') {
+          e.preventDefault(); // Prevents scroll pull-down
+        }
+      }
+
+      function closeDragElement() {
+        document.removeEventListener('mouseup', closeDragElement);
+        document.removeEventListener('touchend', closeDragElement);
+        document.removeEventListener('mousemove', elementDrag);
+        document.removeEventListener('touchmove', elementDrag);
+      }
+    }
+
+    document.querySelectorAll('.about-expand-wrapper').forEach(makeDraggable);
 
     // ========================================
     // Navbar scroll effect
@@ -424,7 +511,7 @@
     // Visitor Notes — localStorage based
     // ========================================
     (function initVisitorNotes() {
-      const STORAGE_KEY = 'polok_visitor_notes';
+      const STORAGE_KEY = 'polok_visitor_notes_clean';
       const notesWall = document.getElementById('notesWall');
       const addNoteCard = document.getElementById('addNoteCard');
       const overlay = document.getElementById('noteModalOverlay');
@@ -530,6 +617,34 @@
 
       // Initial render
       renderNotes();
+    })();
+
+    // ========================================
+    // Spotify "Currently Listening" Cycle
+    // ========================================
+    (function initSpotifyWidget() {
+      const songs = [
+        "AM02:00 — Aimer",
+        "Seigi — Zutomayo",
+        "Kataomoi — Aimer",
+        "Star Parade — Starlight Kukugumi",
+        "Uso ja nai — Zutomayo",
+        "Sailing — Aimer"
+      ];
+      let currentSongIndex = 0;
+      const trackEl = document.getElementById("spotifyTrack");
+      if (!trackEl) return;
+
+      function changeSong() {
+        trackEl.style.opacity = "0";
+        setTimeout(() => {
+          currentSongIndex = (currentSongIndex + 1) % songs.length;
+          trackEl.textContent = songs[currentSongIndex];
+          trackEl.style.opacity = "1";
+        }, 400);
+      }
+
+      setInterval(changeSong, 6000); // changes song every 6s
     })();
   </script>
 </body>
