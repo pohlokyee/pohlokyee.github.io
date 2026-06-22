@@ -2072,12 +2072,6 @@ section {
   }
 }
 
-width: 2px;
-background: #1DB954;
-border-radius: 1px;
-animation: eq-bounce 0.8s ease-in-out infinite alternate;
-}
-
 .spotify-equalizer .bar:nth-child(1) {
   height: 30%;
   animation-delay: 0.1s;
